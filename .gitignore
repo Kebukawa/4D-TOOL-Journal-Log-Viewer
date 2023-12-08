@@ -1,0 +1,35 @@
+# Ignore invisible files/folders except .gitignore
+.*
+!.gitignore
+
+# Ignore data
+Data/*
+userPreferences.*/
+
+# Ignore user preferences
+userPreferences.*
+Preferences/
+Settings/
+/Resources/php.ini
+
+# Ignore methods for test
+_*.4dm
+
+# Ignore forms for test
+__TEST__*
+
+# Ignore derived data except the Documentation
+DerivedData/
+#!DerivedData/Documentation/
+
+Project/DerivedData/*
+Data/Logs/*
+
+# Ignore generated dynamic library
+# Libraries/lib4d-arm64.dylib
+
+# Ignore Trash
+/Project/Trash/
+
+# for Mac
+.DS_Store

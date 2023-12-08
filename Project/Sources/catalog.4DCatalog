@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="test v19" uuid="AC48A0CD1C464CC1A9F7DE73F50C0548" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="(Logs)" uuid="535C39CE088B4F188CAA404B860F8A93" id="1" hide_in_REST="true" prevent_journaling="true">
+		<field name="Field_1" uuid="B6AFA905A2204305984CF589165A4A04" type="10" id="1"/>
+		<field name="Field_2" uuid="475E0FC7CCFA407E864A48B2A18ADB17" type="10" id="2"/>
+		<field name="Field_3" uuid="826AB37A51F94771BACAE61D151374C8" type="10" id="3"/>
+		<field name="Field_4" uuid="BAB0D7D5866B4F57B3BF47DD7FFAC3BB" type="10" id="4"/>
+		<field name="Field_5" uuid="66AB66F94DA94FEE95A1BBD9EBC51F4D" type="10" id="5"/>
+		<field name="Field_6" uuid="A80728D9BB704998B3D4ED22B93831B8" type="10" id="6"/>
+		<field name="Field_7" uuid="0093DB18FDFF40F19D9A63F29695A377" type="10" id="7"/>
+		<field name="Field_8" uuid="3804FBA395664DF4A0802D308DD0154D" type="10" id="8"/>
+		<field name="Field_9" uuid="6CAABEC0E6F54F35BBE6E93987205B9A" type="10" id="9"/>
+		<field name="Field_10" uuid="601BCF731EBB402EA3CCFD26D4227A30" type="10" id="10"/>
+		<field name="Field_11" uuid="8314CBCD82794A17A99B165F02E31021" type="10" id="11"/>
+		<table_extra trashed="true" input_form="(Input)" output_form="(Output)">
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Logs" uuid="5CB2DD172DFF4CA3B61A3307BDD0014F" id="2" prevent_journaling="true">
+		<field name="Operation" uuid="C90C5967638649BEA7C23010810D940D" type="6" id="1"/>
+		<field name="Action" uuid="EE80CD09948E423EA2AB9DF506B02F5D" type="10" id="2"/>
+		<field name="Table" uuid="0EE61B9FEB8E4EFCA2E357922FCC4A5B" type="10" id="3"/>
+		<field name="PrimaryKey" uuid="A1A58069BB1E4B3E94BEB43E94611241" type="10" id="4"/>
+		<field name="Process" uuid="3757444E46BF4890802F9FD0AED043EB" type="10" id="5"/>
+		<field name="Size" uuid="4E257B6097A8493384B774EE7D32819B" type="6" id="6"/>
+		<field name="Date" uuid="54BCD7E842A043F0AABFAA09E57F036A" type="10" id="7"/>
+		<field name="Hour" uuid="779FA9EBE5F449F9AF0B8C2A9E88EA5E" type="9" id="8"/>
+		<field name="User" uuid="7AB5F43DB5124DF79E267D33A377CF5C" type="10" id="9"/>
+		<field name="Value" uuid="CB24ACB18255493C9B19D0FD138F43AA" type="10" id="10"/>
+		<field name="Records" uuid="366E054B41FA48B9AA90AC220B3121F6" type="10" id="11"/>
+		<field name="ID" uuid="FE0905E6424846C88E83F3EE9FE150C0" type="10" limiting_length="255" unique="true" store_as_UUID="true" never_null="true" id="12"/>
+		<primary_key field_name="ID" field_uuid="FE0905E6424846C88E83F3EE9FE150C0"/>
+		<table_extra input_form="List" output_form="Output">
+			<editor_table_info displayable_fields_count="16">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="62.44140625" top="15.46484375" width="189.140625" height="381.74609375"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="EA09614DCB894A2FA304C595C5D5D1A2" type="1">
+		<field_ref uuid="FE0905E6424846C88E83F3EE9FE150C0" name="ID">
+			<table_ref uuid="5CB2DD172DFF4CA3B61A3307BDD0014F" name="Logs"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0, alternate=search" __keywordBuildingHash="mecab:0.996;sys.dic:102;" package_name="test v19" structure_file_name="test v19" data_file_path=":test v19.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

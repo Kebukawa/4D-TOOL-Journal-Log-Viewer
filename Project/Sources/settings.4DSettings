@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
 	<com.4d>
 		<deployment>
 			<options/>
@@ -11,5 +11,6 @@
 				<configuration automatic_session_management="true"/>
 			</remote>
 		</web>
+		<general startup_environnement="1"/>
 	</com.4d>
 </preferences>

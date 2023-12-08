@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export table_no="2" format="text" encoding="UTF-8" char_display_format="decimal" platform="automatic" import_mode="create" table_name="Logs">
+	<text_settings first_imported_line="2" delimiter_record="13" delimiter_field="59" with_column_title="false"/>
+	<field table_no="2" field_no="1" kind="real"/>
+	<field table_no="2" field_no="2" kind="text"/>
+	<field table_no="2" field_no="3" kind="text"/>
+	<field table_no="2" field_no="4" kind="text"/>
+	<field table_no="2" field_no="5" kind="text"/>
+	<field table_no="2" field_no="6" kind="real"/>
+	<field table_no="2" field_no="7" kind="text"/>
+	<field table_no="2" field_no="8" kind="time"/>
+	<field table_no="2" field_no="9" kind="text"/>
+	<field table_no="2" field_no="10" kind="text"/>
+	<field table_no="2" field_no="11" kind="text"/>
+	<xml_settings/>
+</settings-import-export>
